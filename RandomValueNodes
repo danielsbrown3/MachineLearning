@@ -1,0 +1,34 @@
+import numpy
+
+# Set up the inputs, weights, bias, batch size
+
+i_nodes = 2 # inputs
+o_nodes = 2 # outputs
+h_nodes = 3 # weights
+batch_size = 8 # network size
+
+i_data = numpy.random.randn(batch_size,i_nodes) # creates a matrix with two nodes and 8 groups of data points
+o_data = numpy.random.randn(batch_size,o_nodes) # creates what you want the neural network to arrive at so it can learn
+
+w1 = numpy.random.randn(i_nodes,h_nodes) # creating a random list of weights matrix of size input nodes (2) x h nodes (3)
+w2 = numpy.random.randn(h_nodes,o_nodes) # creating a random list of weights matrix of size h nodes (3) by output nodes (2) 
+
+h_values = i_data.dot(w1) # takes the dot product of the input and the weight
+
+# Rectified Linear Unit (ReLU) or BIAS
+# remove all negative calues, replacing them with 0
+
+h_relu = numpy.maximum(h_values,0)
+o_data_predictions = h_relu.dot(w2) # multipling the data that passes through the rectified linear unit (filter) by the second weighted vectors
+
+
+loss_function = numpy.square(o_data_predictions - o_data).sum() # we square it to make the error more identifiable
+
+# in order to descrease the loss value or improve the network would be to change the weights
+
+
+print(f"Weight 1 is {w1}")
+print(f"input data is {i_data}")
+print(f"Hidden values are {h_values}")
+print(f"Rectified Linear Unit is {h_relu}")
+print(f"The loss function or how innaccurate your network was is {loss_function}")
