@@ -1,0 +1,88 @@
+import numpy
+import matplotlib.pyplot as plt # graph plotting module
+# Set up the inputs, weights, bias, batch size
+
+i_nodes = 2 # inputs
+o_nodes = 2 # outputs
+h_nodes = 3 # weights
+batch_size = 8 # network size
+
+i_data = numpy.random.randn(batch_size,i_nodes) # creates a matrix with two nodes and 8 groups of data points
+o_data = numpy.random.randn(batch_size,o_nodes) # creates what you want the neural network to arrive at so it can learn
+
+w1 = numpy.random.randn(i_nodes,h_nodes) # creating a random list of weights matrix of size input nodes (2) x h nodes (3)
+w2 = numpy.random.randn(h_nodes,o_nodes) # creating a random list of weights matrix of size h nodes (3) by output nodes (2) 
+
+
+# initilize array that we will store the gradient plot in
+loss_array = numpy.array([[]])
+indices = numpy.array([[]])
+
+for i in range(1000):
+  h_values = i_data.dot(w1) # takes the dot product of the input and the weight
+
+# Rectified Linear Unit (ReLU) or BIAS
+# remove all negative calues, replacing them with 0
+
+  h_relu = numpy.maximum(h_values,0)
+  o_data_predictions = h_relu.dot(w2) # multipling the data that passes through the rectified linear unit (filter) by the second weighted vectors
+
+  loss_function = numpy.square(o_data_predictions - o_data).sum() # we square it to make the error more identifiable
+  loss_array = numpy.append(loss_array, loss_function) # stores the loss_function value for each iteration
+  indices = numpy.append(indices,i) # stores the indice number for each step (tracked to the loss_function)
+ 
+# derivative of the loss function
+  gradient_of_loss_withrespectto_o_data_predictions = 2 * (o_data_predictions - o_data)
+# ∂f / ∂loss
+# partial derivative of the output predictions
+# each element or value in gradient for loss is the slope of the gradient for the specific value of loss
+
+# gradient_w2 =  [ ∂f / ∂w2 ] = [ ∂f / 1 ] * [ 1 / ∂w2 ] = ( ∂f / ∂predloss ) * ( ∂predloss / ∂w2) 
+  gradient_w2 = h_relu.T.dot(gradient_of_loss_withrespectto_o_data_predictions)
+# make sure to transpose h_relu in order to complete matrix multiplication, to change the neighboring dimensions to the same numbers
+# ie 8x3 and 8x2 => 3x8 and 8x2 
+
+# print(gradient_w2)
+# prints the slopes of each of the values in the weight 2 matrix
+
+# gradient_h_relu = ∂f / ∂h_relu = (∂f / 1) * (1 / ∂h_relu) = (∂f / ∂predloss) * (∂predloss / ∂h_relu)
+  gradient_h_relu = gradient_of_loss_withrespectto_o_data_predictions.dot(w2.T)
+
+# for the gradient of w2 the slope of the gradient ( ∂predloss / ∂w2 ) is going to h_relu
+# for the gradient of h_relu the slope of the gradient ( ∂predloss / ∂h_relu ) is going to be w2
+
+# gradient_h_values = have to remove the values that would be 0 becuase going backwards through the h_relu
+  grad_h_values = gradient_h_relu.copy()
+  grad_h_values[h_values < 0] = 0
+
+# gradient_w1 = last step 
+  grad_w1 = i_data.T.dot(grad_h_values)
+
+# =========================
+# back propagation complete
+# =========================
+
+# now its time to learn
+# start by editing weight 1 using the gradient w1 and taking a step down
+
+  w1 = w1 - grad_w1 * 1e-4
+  w2 = w2 - gradient_w2 * 1e-4
+
+# Now we plot the stored indices and loss array
+
+plt.plot(indices,loss_array)
+plt.legend(['Loss over iterations'])
+plt.show()
+
+print(o_data)
+print(o_data_predictions)
+
+
+# in order to descrease the loss value or improve the network would be to change the weights
+
+
+# print(f"Weight 1 is {w1}")
+# print(f"input data is {i_data}")
+# print(f"Hidden values are {h_values}")
+# print(f"Rectified Linear Unit is {h_relu}")
+# print(f"The loss function or how innaccurate your network was is {loss_function}")
