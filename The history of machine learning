@@ -1,0 +1,55 @@
+Trying to understand the origins of machine learning and how it came about.
+
+My interest was first peaked by Andrew Ng in Courseeras machine learning class.
+
+I then learning about Imagenet and Fei Fei Li. She is the Sequoia Capital Professor of Computer Science at Stanford University.
+Fei Fei immigrated to the US from Chengdu China when she was 15. She then majored in Physics at Princeton University while simultaenously
+working at her parents dry cleaning business on the weekends. She then went on to pursue a PHD in electrical engineering from
+Caltech in 2005. 2005-2009 she became an assistant professor of electrical engineering at University of Illinois Urbana-Champaign.
+She joined Stanford in 2009 and created Imagenet the largest machine learning labeled image dataset,
+then served as the direct of Stanford Artificial Intelligence from 2013-2018. She worked at Google 
+Cloud as Chief Scientists of AI/ML in 2017 to 2018. Google accepted a contract from the department of defense in 2017 to label
+and use AI for drone images. Fei Fei took a lot of heat from this. She rejoined Stanford in 2018 where she started AI4ALL education
+program for the underrepresented community in AI/ML with funding from Melinda Gates and Jensen Huang. In 2020 she joined the board
+of directors of Twitter until 2022 when Elon Musk purchased the company and removed her from the board. 
+
+Fei Fei created a competition using Imagenet in 2012 to create a machine learning program to learn images with the a small error. 
+The group that beat all other groups with a 15.3% error rate (a big deal since the next 10 runners up were all in the 25%), was
+called AlexNet. Which created a machine learning program that was different than everyone else, it was a convonluted neural network
+or the first succesful use of Deep Learning. This levered the use of graphics processing units (GPU) during training. The team that 
+made AlexNet was Alex Krizhevsky, Ilya Sutskever, and Geoffrey Hinton(PHD advisor). AlexNet was written in NVIDIA's CUDA. 
+
+Alex Krizhevsky went on to found a startup DNN Research which he then later sold to Google in 2017. He then left Google to work at
+Dessa.  He is the creator of the CIFAR-10 and CIFAR-100 datasets which is a image library used for labeling datasets.
+
+Ilya Sutskever was born in the Soviety Union in 1985 and later immigrated to Israel. He then attended the University of Toronto
+where he would get a PHD in computer science under Geoffrey Hinton and win the AlexNet competition in 2012. He then spent 
+two months as a postdoc with Andrew Ng at Stanford and then returned to Geoffrey Hinton to join his company DNN research which was
+then sold to Google. He was then hired as a research scientists at Google Brain. In 2015 he left Google to be cofounder and Chief
+Scientist of OpenAI with Sam Altman. In 2023 he announced he would lead OpenAI's new Superalignment project. 
+
+Geofrey Hinton Alex and Ilya's PHD advisor for AlexNet. Hinton was educated at King's College, Cambridge where he changed his major 
+four times before arrived at expieremental psychology. He went on to recieve a PHD in artificial intelligence in 1978. He then 
+wroked at University of California, San Diego (YUH) and Carnegie Mellon University. While at UCSD he applied backpropagation
+algorithm to multi-layer neural networks. In 2007 while working at the University of Toronto he published a paper on unsupervised
+learning of image transformations which would be the foundation for his students in AlexNet. He then founded DNN Research which 
+was acquired by Google until he resigned in 2023 where he said "part of him now regrets his life's work" { I wonder what Google
+is doing that kinda scares me }
+
+Andrew Ng was a born in the UK in 1976 to Honk Kong Immigrants. In 1997 he triple majored in computer science, statistics, and economics
+from Carnegie Mellon Univerisity. While in University from 1996 to 1998 he did research for reinforcement learning at AT&T's
+Bell Labs. 1998 earned his master degree from MIT where he built the first publicly available automatically indexed web-search 
+engine for research papers on the web. In 2002 he recieved his PHD from Berkeley under Michael I.Jordan. He wrote a famous paper
+titled "Shaping and policy search in reinforcement learning". Andrew started working in Stanford in 2002. In 2008 his research 
+group was one of the first in the US to start advocating for the use of GPUs in deep learning. In 2012 Andrew and Daphne Koller
+founded Coursera where he is CEO. He is also on the chair of the venture capital firm Woebot labs that uses data science for a therapy
+chatbot. Also on the board of drive.ai for self driving cars, which was acquired by Apple in 2019. Founded Landing AI a company
+that sells AI. 
+
+Michael I Jordan recieved his PDH in Cognitive Science from UCSD in 1985. Jordan popularized Bayesian networks in the machine learning
+community and is known for linking machine learning and statistics. Popularized the expectation maximization algorithm in machine
+learning. 
+
+Books to read to further research: Architects of Intelligence and Machine Learning Yearning. 
+
+
