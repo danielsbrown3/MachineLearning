@@ -1,0 +1,49 @@
+# today I will be writing notes then attempting the towards data science neural network in python
+then I will attempt to use that knowledge for my own neural network
+
+Steps
+1. Feed input into Neural Network
+2. Data flow from layer to layer until output
+3. Calculate error (scalar) from output
+4. Adjust given parameter (weight or bias) by subtracting derivative of error with respect to parameter
+itself
+5. Iterate
+
+The Neural Network we will be doing today is forward propagation, this is where the output of one
+layer is the input of the next layer.
+
+We will use gradient descent to reduce error each iteration w=w-alpha(dE/dw)
+
+I dont understand the chain rule math here: 
+https://towardsdatascience.com/math-neural-network-from-scratch-in-python-d6da9f29ce65
+
+
+1. Implementation
+
+2. Base Layer
+
+3. Dense Layer
+
+4. Activation Layer
+
+5. Implement activiation functions and loss functions
+
+6. Solve XOR
+
+ML Steps
+
+1. Feed input
+
+2. Calc error
+
+3. Gradient descent
+
+
+
+
+
+
+
+
+
+
