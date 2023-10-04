@@ -8,17 +8,7 @@ so much water and so many brave firefighters that can put their life on the line
 The way our team could assist them is manipulating data already avaible to create a real time model
 of fires as they occur. Using vegetation data, humidity, local weather radars, recent rainfall, and
 previous fires burn time, the machine learning model was able to predict the permeter of a fire with
-repect to time as soon as the fire started. {insert some more on how the data worked}. I found it super
-impactful that I got to use such a complex model and work with such incredible people that were working
-towards solving a problem that destroys so many lives. This expierence ingrained the use of machine learning
-and data-driven solutions as an incredible tool in my head. The next expierence I had where I took some of
-the lessons I learned from the wildifre modeling job was when I worked with a head and neck surgeon from 
-the UCSD medical school on a device to support her patients muscular distrophy. The patient had artificial
-nerves installed post surgery that restricted them from creating a seal with their mouth. This was a problem
-because the patient was a muscisian and they loved to play the saxophone. I used a 3D scanner to scan the contours
-of the patients face. I designed a mouth piece using solidworks and I ran finite element analysis simulations
-to make sure it supported his face. And then I prototyped it using 3D printers and tested 37 different iterations
-on the patient until I reached a prototype that worked.
+repect to time as soon as the fire started. {insert some more on how the data worked}.
 
 What is your expeirence with data structures, linear algebra, python?
 My expierence with data structures has been mostly through online courses through coursera and EdX. I've been
@@ -40,3 +30,82 @@ Additionally, I really look forward to taking the captstone class and the machin
 doing projects is my job and what I want to continue to do and implementing machine learning into my projects
 would be my ultimate goal. 
 
+Do you have any questions for us?
+What seperates successful students in the Berkeley MIDS program?
+
+
+
+
+
+ I found it super
+impactful that I got to use such a complex model and work with such incredible people that were working
+towards solving a problem that destroys so many lives. This expierence ingrained the use of machine learning
+and data-driven solutions as an incredible tool in my head. The next expierence I had where I took some of
+the lessons I learned from the wildifre modeling job was when I worked with a head and neck surgeon from 
+the UCSD medical school on a device to support her patients muscular distrophy. The patient had artificial
+nerves installed post surgery that restricted them from creating a seal with their mouth. This was a problem
+because the patient was a muscisian and they loved to play the saxophone. I used a 3D scanner to scan the contours
+of the patients face. I designed a mouth piece using solidworks and I ran finite element analysis simulations
+to make sure it supported his face. And then I prototyped it using 3D printers and tested 37 different iterations
+on the patient until I reached a prototype that worked.
+
+
+gift: mechanical engineering, building things with my hands, robotics, worked with medical 3D printed 
+equipment, rocket club building 
+
+passion: 
+
+matters:
+
+help: protect the enviorment for future and current generations, protect fire fighters, stops pollution
+from seeping into the atmosphere, 
+
+Tell us more about you expierence at work:
+At L3 Harris Im a systems engineer which means Im responsible for overseeing the design, managment,
+and implementation of a large scale communcation system throughout its life cycle. Im the interface
+between mechanical engineers, electrical engineers, and software engineers that ensures their designs
+work together and accomplish the systems goal. I love it because I get to work with diverse team of 
+engineers who all have varying perspectives on how a goal needs to be accomplished. This is probably 
+my favorite part of my job and the reason why I love that Berkeley MIDS has so many group projects. 
+
+
+Linear algebra, data structures and algorithms:
+At my university I took linear algebra, differential equations, vector calculus, and calculus for
+analytical geometry. Much of my mechanical engineering coursework involved using and manipulating
+matrices for complex geometries.
+I also took MATLAB courses (insert here) where I used recursion, binarary search, functions, loops
+and lots of linear algebra to accomplish tasks such as computing the flow through a rocket nozzle 
+After university I've been taking lots of Massive Online Open Courseware classes for Python, C, and
+SQL. I've gained some expierence using memory allocation, recursion, and cleaing data in SQL. I've even
+used some Pandas and Pytourch, but I'm still relatively low expeirence and I am super looking forward
+to taking the introduction to Python course to refresh my skills.
+
+
+
+
+
+There have been two profound moments I have had that have formed my passions as an engineer. The first 
+being the expierence I had when I partnered with a head and neck surgeon and UCSD. Where I worked
+with a patient who had parttial facial parylsis as a result of a cancer removing surgery in his cheek 
+where the surgeon cut his natural cheek nerves and installed artificial nerves. Which is super cool! 
+But the artificial nerves were not as strong as the patients natural nerves so the patient could no longer
+fully close his mouth to create a seal. Which was sad because he was a retired engineer who loved playing
+for his church band on the weekends. So I thought about how to approach the problem and it was quite
+complex. So I started with the data and observations, took pressure measurements, 3D scans, FEA simulations
+and gathered a boatload of data to inform my design decisions. However, the first prototype didnt work
+and I began to iterate, like back propagation in a ML code I had to iterate over and over again to fix
+my errors. Eventually I was able to arrive at a design (after 37 iterations) that created the seal.
+It was incredible and I new I loved using my engineering skillset to help people. The second most impactful expierence
+is when I got to witness the powers of machine leanring to not just help one person, but millions of people.
+I got the opprutunity to work at the San Diego Supercomputer Center where my team used a Deep Learning
+model to predict the perimeter of a real time wild fires trained on previous fires, real time weather
+data near by, real time wind data, and geographical vegetation data. Machine learning gave me the ability
+to solve a problem that effects millions of people instead of just one person. My goal is to help as 
+many people as I can using my skills as an data driven engineer. While I was at the center, I observed
+many areas of growth for our models that could increase the accuracy rates of our models and potential save
+many more lives. I left the Super Computer Center when I graduated to work at L3 Harris because they offered to
+pay for my graduate school education and be flexible with my learning goals. I think UC Berkeley could help
+me learn how to improve the models that are already being run and expand the program to include natural
+distastor events such as floods and hurricanes. UC Berkeley's project driven classes, diverse community of engineers,
+and curriculum could help me work towards my goal of returning to the program. Machine learning at 
+scale. 
