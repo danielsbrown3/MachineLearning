@@ -1,0 +1,41 @@
+Why do I want to pursue a master in data science? 
+I love engineering, I love robotics, I love rockets, and I think data science is the perfect tool to 
+assist me as an engineer in todays digital world. One of the most impactful expierences I've had in
+my life was when I got the oppurtunity to work at the San Diego Super Computer Center in the Wildfire
+Prevention Program. It was a program where our team was tasked with figuring out a way to assist
+firefighters in creating a plan to extuinguish fires in an efficient and safe way. There is only
+so much water and so many brave firefighters that can put their life on the line to put out a fire.
+The way our team could assist them is manipulating data already avaible to create a real time model
+of fires as they occur. Using vegetation data, humidity, local weather radars, recent rainfall, and
+previous fires burn time, the machine learning model was able to predict the permeter of a fire with
+repect to time as soon as the fire started. {insert some more on how the data worked}. I found it super
+impactful that I got to use such a complex model and work with such incredible people that were working
+towards solving a problem that destroys so many lives. This expierence ingrained the use of machine learning
+and data-driven solutions as an incredible tool in my head. The next expierence I had where I took some of
+the lessons I learned from the wildifre modeling job was when I worked with a head and neck surgeon from 
+the UCSD medical school on a device to support her patients muscular distrophy. The patient had artificial
+nerves installed post surgery that restricted them from creating a seal with their mouth. This was a problem
+because the patient was a muscisian and they loved to play the saxophone. I used a 3D scanner to scan the contours
+of the patients face. I designed a mouth piece using solidworks and I ran finite element analysis simulations
+to make sure it supported his face. And then I prototyped it using 3D printers and tested 37 different iterations
+on the patient until I reached a prototype that worked.
+
+What is your expeirence with data structures, linear algebra, python?
+My expierence with data structures has been mostly through online courses through coursera and EdX. I've been
+able to gain expierence using binary search, recursion, search trees, and hash tables. I've had a little
+bit of expierence using SQL to store data in tables and retrieve it. I've had a lot of expierence using anayltical
+reasoning in my alculus and Matlab programming through my mechanical engineering undergradaute. I used matlab a lot in both
+my rocket club, to predict and model velocity loss through pipes, and in my classes for projects like modeling the
+navier stokes equations for a particle emitted from a rocket engine. Most of the Matlab projects involved
+recursive structures, many embedded loops, matrix multiplication and dot products, and objects oriented programming becuase 
+a lot of the physics equations had to be written in their own functions and then called back in different scenerios.
+
+Why pick Berkeley?
+My goal right now is to maximize my learning potentional so that I can use this powerful tool in the enginseering
+world to assist my projects and better informed decisions for the systems that I manage. I really love the part of your program
+where classes are sychronous, most classes have group projects, and there are small classes where students 
+really get to know each other. I love learning with people that have different perspectives than me, and Berkeley
+attracts exceptionally diverse and incredibly smart students from around the globe and I would love to be apart of that.
+Additionally, I really look forward to taking the captstone class and the machine learning at scale class because 
+doing projects is my job and what I want to continue to do and implementing machine learning into my projects
+would be my ultimate goal. 
